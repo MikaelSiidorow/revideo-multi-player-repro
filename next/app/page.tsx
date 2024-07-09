@@ -153,6 +153,15 @@ export default function Home() {
 								repoImage: repoImage ? repoImage : undefined,
 							}}
 						/>
+						<Player
+							src="http://localhost:4000/player/"
+							controls={true}
+							variables={{
+								data: stargazerTimes.length > 0 ? stargazerTimes : undefined,
+								repoName: repoName ? repoName : undefined,
+								repoImage: repoImage ? repoImage : undefined,
+							}}
+						/>
 					</div>
 				</div>
 				<div className="flex gap-x-4">
