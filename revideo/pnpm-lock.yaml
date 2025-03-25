@@ -22,7 +22,7 @@ importers:
         version: 0.4.6(@types/node@20.14.10)(typescript@5.5.3)
       '@revideo/vite-plugin':
         specifier: 0.4.6
-        version: 0.4.6(@types/node@20.14.10)(vite@4.5.3(@types/node@20.14.10))
+        version: 0.4.6(@types/node@20.14.10)(vite@4.5.10(@types/node@20.14.10))
     devDependencies:
       '@revideo/cli':
         specifier: 0.4.6
@@ -35,7 +35,7 @@ importers:
         version: 5.5.3
       vite:
         specifier: ^4.5
-        version: 4.5.3(@types/node@20.14.10)
+        version: 4.5.10(@types/node@20.14.10)
 
 packages:
 
@@ -973,8 +973,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  nanoid@3.3.7:
-    resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
+  nanoid@3.3.11:
+    resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -1037,15 +1037,15 @@ packages:
   pend@1.2.0:
     resolution: {integrity: sha512-F3asv42UuXchdzt+xXqfW1OGlVBe+mxa2mqI0pg5yAHZPvFmY3Y6drSf/GQ1A86WgWEN9Kzh/WrgKa6iGcHXLg==}
 
-  picocolors@1.0.1:
-    resolution: {integrity: sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==}
+  picocolors@1.1.1:
+    resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
 
   picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
 
-  postcss@8.4.39:
-    resolution: {integrity: sha512-0vzE+lAiG7hZl1/9I8yzKLx3aR9Xbof3fBHKunvMfOCYAtMhrsnccJY2iTURb9EZd5+pLuiNV9/c/GZJOHsgIw==}
+  postcss@8.5.3:
+    resolution: {integrity: sha512-dle9A3yYxlBSrt8Fu+IpjGT8SY8hN0mlaA6GY8t0P5PjIOZemULz/E2Bnm/2dcUOena75OTNkHI76uZBNUUq3A==}
     engines: {node: ^10 || ^12 || >=14}
 
   posthog-node@4.0.1:
@@ -1123,8 +1123,8 @@ packages:
     resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
-  rollup@3.29.4:
-    resolution: {integrity: sha512-oWzmBZwvYrU0iJHtDmhsm662rC15FRXmcjCk1xD771dFDx5jJ02ufAQQTn0etB2emNk4J9EZg/yWKpsn9BWGRw==}
+  rollup@3.29.5:
+    resolution: {integrity: sha512-GVsDdsbJzzy4S/v3dqWPJ7EfvZJfCHiDqe80IyrF59LYuP+e6U1LJoUqeuqRbwAWoMNoXivMNeNAOf5E22VA1w==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
 
@@ -1176,8 +1176,8 @@ packages:
     resolution: {integrity: sha512-l5x7VUUWbjVFbafGLxPWkYsHIhEvmF85tbIeFZWc8ZPtoMyybuEhL7Jye/ooC4/d48FgOjSJXgsF/AJPYCW8Zw==}
     engines: {node: '>= 10.0.0', npm: '>= 3.0.0'}
 
-  source-map-js@1.2.0:
-    resolution: {integrity: sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==}
+  source-map-js@1.2.1:
+    resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
 
   source-map@0.6.1:
@@ -1283,8 +1283,8 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  vite@4.5.3:
-    resolution: {integrity: sha512-kQL23kMeX92v3ph7IauVkXkikdDRsYMGTVl5KY2E9OY4ONLvkHf04MDTbnfo6NKxZiDLWzVpP5oTa8hQD8U3dg==}
+  vite@4.5.10:
+    resolution: {integrity: sha512-f2ueoukYTMI/5kMMT7wW+ol3zL6z6PjN28zYrGKAjnbzXhRXWXPThD3uN6muCp+TbfXaDgGvRuPsg6mwVLaWwQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -1376,7 +1376,7 @@ snapshots:
   '@babel/code-frame@7.24.7':
     dependencies:
       '@babel/highlight': 7.24.7
-      picocolors: 1.0.1
+      picocolors: 1.1.1
 
   '@babel/helper-validator-identifier@7.24.7': {}
 
@@ -1385,7 +1385,7 @@ snapshots:
       '@babel/helper-validator-identifier': 7.24.7
       chalk: 2.4.2
       js-tokens: 4.0.0
-      picocolors: 1.0.1
+      picocolors: 1.1.1
 
   '@codemirror/language@6.10.2':
     dependencies:
@@ -1666,7 +1666,7 @@ snapshots:
       '@revideo/core': 0.4.6
       preact: 10.22.1
 
-  '@revideo/vite-plugin@0.4.6(@types/node@20.14.10)(vite@4.5.3(@types/node@20.14.10))':
+  '@revideo/vite-plugin@0.4.6(@types/node@20.14.10)(vite@4.5.10(@types/node@20.14.10))':
     dependencies:
       '@revideo/ffmpeg': 0.4.6(@types/node@20.14.10)
       '@types/node': 20.14.10
@@ -1675,7 +1675,7 @@ snapshots:
       formidable: 3.5.1
       mime-types: 2.1.35
       source-map: 0.6.1
-      vite: 4.5.3(@types/node@20.14.10)
+      vite: 4.5.10(@types/node@20.14.10)
     transitivePeerDependencies:
       - debug
       - supports-color
@@ -2352,7 +2352,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  nanoid@3.3.7: {}
+  nanoid@3.3.11: {}
 
   negotiator@0.6.3: {}
 
@@ -2411,15 +2411,15 @@ snapshots:
 
   pend@1.2.0: {}
 
-  picocolors@1.0.1: {}
+  picocolors@1.1.1: {}
 
   picomatch@2.3.1: {}
 
-  postcss@8.4.39:
+  postcss@8.5.3:
     dependencies:
-      nanoid: 3.3.7
-      picocolors: 1.0.1
-      source-map-js: 1.2.0
+      nanoid: 3.3.11
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
 
   posthog-node@4.0.1:
     dependencies:
@@ -2516,7 +2516,7 @@ snapshots:
 
   reusify@1.0.4: {}
 
-  rollup@3.29.4:
+  rollup@3.29.5:
     optionalDependencies:
       fsevents: 2.3.3
 
@@ -2594,7 +2594,7 @@ snapshots:
       ip-address: 9.0.5
       smart-buffer: 4.2.0
 
-  source-map-js@1.2.0: {}
+  source-map-js@1.2.1: {}
 
   source-map@0.6.1: {}
 
@@ -2694,11 +2694,11 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite@4.5.3(@types/node@20.14.10):
+  vite@4.5.10(@types/node@20.14.10):
     dependencies:
       esbuild: 0.18.20
-      postcss: 8.4.39
-      rollup: 3.29.4
+      postcss: 8.5.3
+      rollup: 3.29.5
     optionalDependencies:
       '@types/node': 20.14.10
       fsevents: 2.3.3
